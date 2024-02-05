@@ -1,0 +1,43 @@
+.card-input {
+    width: 487px;
+    height: 44px;
+    border: 1px solid #DCDFE6;
+    border-radius: 8px;
+}
+
+.card-input.dropdown {
+    background: linear-gradient(0deg, #DCDFE6, #DCDFE6), linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}
+
+.card-form {
+    margin-top: 20px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.p-dropdown-label.p-inputtext,
+.p-inputtext.form-control,
+.p-inputtext.form-control:enabled:hover,
+.p-dropdown.form-control {
+  width: 100% !important;
+  margin-bottom: 5px;
+  border: transparent;
+  font-size: 15px;
+  color: #0A0909;
+  height: 45px;
+  border-radius: 3px;
+  letter-spacing: 0.9px;
+}
+
+.p-tabview .p-tabview-nav{
+    background: #ECF0F180;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* .mainclass .manageTabView .p-tabview .p-tabview-nav li .p-tabview-nav-link,
+    .mainclass .manageTabView .p-tabview .p-tabview-nav li:not(.p-highlight):not(.p-disabled):hover .p-tabview-nav-link {
+
+        min-width: 20px;
+    } */

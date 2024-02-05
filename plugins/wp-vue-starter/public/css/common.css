@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  letter-spacing: 0.5px;
+  margin: 0px;
+}
+
+.pi {
+  font-size: 14px !important;
+}
+
+.cmb-5 {
+  margin-top: 5px;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
+.displayinlinblock {
+  display: inline-block;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.btlr-10 {
+  border-top-left-radius: 10px;
+}
+
+.btrr-10 {
+  border-top-right-radius: 10px;
+}
+
+.bblr-10 {
+  border-bottom-left-radius: 10px;
+}
+
+.bbrr-10 {
+  border-bottom-right-radius: 10px;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.dappointmentDetailSection .hideThingsOnDesktopView,
+.hideThingsOnDesktopView {
+  display: none;
+}
+
+.p-dropdown-label.p-inputtext,
+.p-inputtext.form-control,
+.p-inputtext.form-control:enabled:hover,
+.p-dropdown.form-control {
+  width: 100% !important;
+  margin-bottom: 5px;
+  border: 1px solid #969393;
+  font-size: 15px;
+  color: #0A0909;
+  height: 45px;
+  border-radius: 3px;
+  letter-spacing: 0.9px;
+}
+
+.p-dropdown.form-control:not(.p-disabled):hover,
+.p-dropdown.form-control:not(.p-disabled).p-focus {
+  box-shadow: none;
+  border: 1px solid #969393;
+}
+
+.p-component{
+  font-family: 'Noto Sans TC', sans-serif !important;
+}
+
+.p-dropdown-panel.p-component .p-dropdown-items .p-dropdown-item.p-highlight {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.p-dropdown-items-wrapper{
+  max-height: 251px !important;
+}
+
+::placeholder,
+.p-dropdown .p-dropdown-label.p-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #969393 !important;
+}
+
+.p-inputtext:enabled:focus {
+  box-shadow: none !important;
+}
+
+.p-icon {
+  width: 33px !important;
+  height: 33px !important;
+}
+
+
+/* DATEPICKER */
+.phighlight .p-datepicker table td>span.p-highlight {
+  background: transparent!important;
+  color: #000000DE!important;
+}
+.p-datepicker table td>span.p-highlight {
+  color: #fff !important;
+  background: var(--tabview-color, #07BEB8) !important;
+}
+
+.p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-month {
+  margin-right: -8px !important;
+  color: var(--tabview-color, #07BEB8) !important;
+  font-weight: 600 !important;
+}
+
+.p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-year,
+.p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-month {
+  color: var(--tabview-color, #07BEB8) !important;
+  font-weight: 600 !important;
+}
+/* 
+.p-datepicker table td.p-datepicker-today>span {
+  background: var(--tabview-color, #07BEB8) !important;
+  border: 1px solid var(--tabview-color, #07BEB8) !important;
+  box-shadow: none !important;
+  color: #fff !important;
+} */
+.p-datepicker table td.p-datepicker-today>span {
+  background: #C5C5C7 !important;
+  border: 1px solid #C5C5C7 !important;
+  box-shadow: none !important;
+  color: var(--tabview-color, #07BEB8) !important;
+}
+
+.p-datepicker-next-icon,
+.p-datepicker-prev-icon {
+  font-weight: 600 !important;
+}
+
+.p-datepicker table td>span {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.p-datepicker-calendar {
+  margin: 0px !important;
+}
+
+.p-datepicker-header {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.p-radiobutton .p-radiobutton-box.p-highlight {
+  border: 5px solid #F39118 !important;
+}
+
+.p-radiobutton .p-radiobutton-box .p-radiobutton-icon {
+  background-color: #fff !important;
+}
+
+.p-radiobutton.p-radiobutton-checked:not(.p-radiobutton-disabled):hover {
+  box-shadow: none !important;
+}
+
+.p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled):hover {
+  background-color: #fff !important;
+  border: 5px solid #F39118 !important;
+}
+
+.p-radiobutton:not(.p-radiobutton-disabled):hover {
+  box-shadow: none !important;
+}
+
+.p-radiobutton .p-radiobutton-box {
+  width: 18px !important;
+  height: 18px !important;
+  border: 1.5px solid #969393 !important;
+}
+
+/* MENUBAR */
+.chooseTheme {
+  padding: 5px;
+  display: inline-block;
+  float: right;
+  position: fixed;
+  right: -48px;
+  bottom: 45%;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(270deg);
+  z-index: 999;
+}
+
+.chooseTheme .leftarrow {
+  transform: rotate(90deg);
+  position: absolute;
+  right: 15px;
+    top: 20px;
+}
+
+.chooseTheme .themeButton {
+  font-size: 13px;
+  color:#fff;
+  cursor: pointer;
+  letter-spacing: 4px;
+  /* position: relative; */
+  padding: 12px 30px 8px 10px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.chooseTheme .themeButton span{
+  transform: rotate(90deg);
+  display: inline-block;
+}
+.p-dialog.choosThemeModel .p-dialog-content {
+  padding: 20px 10px 10px 10px;
+  border-radius: 5px 0px 0px 5px
+}
+
+.chooseColorID {
+  /* text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px; */
+}
+
+.chooseColorID .colorDiv {
+  /* float: left; */
+  padding: 20px 20px;
+  margin: 4px 0px 0px 0px;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+.chooseColorID .colorDiv i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.chooseColorID .colorDiv:hover {
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
+.p-dialog.choosThemeModel {
+  margin: 0;
+  box-shadow: none;
+  width: 5vw !important;
+}
+
+.choosThemeModel .p-dialog-header {
+  background: transparent !important;
+  justify-content: center;
+}
+
+.choosThemeModel .p-dialog-header .p-dialog-header-icons {
+  position: absolute;
+  top: 24px;
+  background: #F39118;
+  color: #fff;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.choosThemeModel .p-dialog-header .p-dialog-header-close-icon {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.MenuHeader {
+  width: 100%;
+  background: #FFFFFF;
+  color: #989EA0;
+
+  box-shadow: 0px 2px 10px 0px #00000026;
+
+}
+
+.MenuHeader .logoHeading {
+  color: #989EA0;
+  margin-left: 5px;
+  padding-bottom: 5px;
+  font-size: 26px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.MenuHeader .p-menubar {
+  display: inline-block;
+  width: 100%;
+  /* border-radius: 7px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+
+}
+
+.MenuHeader .p-menubar-start {
+  display: flex;
+  align-items:center ;
+  float: left;
+  width: 28%;
+  padding-left: 10px;
+}
+
+.MenuHeader .p-menubar-start img {
+  width: 20%;
+  float: left;
+}
+
+.MenuHeader ul.p-menubar-root-list {
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.MenuHeader .p-menubar .p-menubar-root-list>.p-menuitem>.p-menuitem-link .p-menuitem-text {
+  color: #5E6064;
+
+}
+
+.MenuHeader .p-menubar .p-menubar-root-list>.p-menuitem>.p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+  color: #fff;
+}
+
+
+.swal2-title {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.9px;
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+  padding: 0;
+}
+
+.swal2-close,
+.swal2-close:hover,
+.swal2-close:focus {
+  background: #F39118;
+  color: #fff;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  font-size: 28px;
+  padding: 0px;
+  margin-top: -15px;
+  box-shadow: none !important;
+}
+
+.MenuHeader .p-menubar .p-menubar-root-list>.p-menuitem>.p-menuitem-link {
+  /* color: var(--tabview-color, #5E6064) !important; */
+}
+
+
+.MenuHeader .p-menubar .p-menubar-root-list>.p-menuitem>.active.p-menuitem-link {
+  color: #000;
+}
+
+.visibilityHidden {
+  visibility: hidden;
+}
+
+.font-size-15.submitBtn {
+  font-size: 15px;
+}
+
+.genderRadio .col-6 {
+  width: auto;
+}
+
+.swal2-popup {
+  width: 20%;
+}
+
+.p-radiobutton-focused {
+  box-shadow: none !important;
+}
+
+.lineidDiv {
+  text-align: center;
+  margin-top: 30%;
+}
+.lineidDiv button{
+  margin: 40px 0px 20px;
+    min-width: 100px;
+    display: inline-block;
+}
+.lineidDiv button a{
+      color: #fff;
+      text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}

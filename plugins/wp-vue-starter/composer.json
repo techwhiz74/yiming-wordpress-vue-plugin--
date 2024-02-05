@@ -1,0 +1,18 @@
+{
+  "name": "danishashraf047/wp-vue-starter",
+  "description": "",
+  "authors": [
+    {
+      "name": "Danish Ashraf",
+      "email": "danishashraf047@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "wp_vue_starter\\includes\\": "includes/"
+    }
+  },
+  "require-dev": {
+  }
+}

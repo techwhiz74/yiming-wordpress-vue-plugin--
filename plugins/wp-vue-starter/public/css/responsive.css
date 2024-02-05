@@ -1,0 +1,1172 @@
+@media screen and (max-width: 960px) {
+
+    img {
+        max-width: fit-content;
+    }
+
+    .p-menubar .p-menubar-button .pi.pi-bars {
+        font-size: 20px;
+    }
+
+    .p-menubar .p-menubar-button {
+        height: 1.5rem !important;
+    }
+
+    .p-menubar .p-menubar-button {
+        float: right;
+        color:var(--primary-color, #07BEB8) !important;
+    }
+
+    .MenuHeader {
+        padding:19px;
+    }
+
+    .MenuHeader .p-menubar .p-menubar-root-list>.p-menuitem>.p-menuitem-link {
+        color: #000;
+    }
+
+    .MenuHeader .p-menubar .p-menubar-root-list>.p-menuitem>.p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+        color: #000;
+    }
+
+    .MenuHeader ul.p-menubar-root-list {
+        padding: 0px;
+    }
+}
+
+@media (max-width:450px) {
+    img {
+        max-width: fit-content;
+    }
+
+    .regidterFormSection .deskcol6 {
+        width: 50%;
+    }
+
+    .chooseTheme{
+        bottom: 37px;
+    }
+
+    .reregister.submitBtn {
+        font-size: 15px !important;
+    }
+
+    .MenuHeader .p-menubar-start {
+        width: auto;
+    }
+
+    .MenuHeader .p-menubar .p-menubar-root-list>.p-menuitem>.active.p-menuitem-link {
+        background: #f1f1f1;
+    }
+
+    .p-menubar .p-menubar-button {
+        height: 1.5rem;
+    }
+
+    .MenuHeader .p-menubar {
+        background: #ECF0F1;
+        padding: 10px 5px 10px 10px;
+    }
+
+    .MenuHeader .p-menubar-start img {
+        width: 20%;
+    }
+
+    .MenuHeader .logoHeading {
+        font-size: 26px;
+        padding-bottom: 5px;
+    }
+
+    .tabPanelDiv .slot {
+        font-size: 12px;
+    }
+
+    .p-dialog.p-component.choosThemeModel {
+        width: 19vw !important;
+    }
+
+    .dappointmentDetailSection .hideThingsOnDesktopView,
+    .hideThingsOnDesktopView {
+        display: block;
+    }
+
+    .hideThingsOnMobileView {
+        display: none;
+    }
+
+    .doctorCard {
+        background: #D7E5FF;
+        border-radius: 5px;
+        margin: 0px 10px 10px 10px;
+        padding: 15px 15px 15px 15px;
+    }
+
+    .doctorCard.modifypadd {
+        padding: 20px 25px 15px 30px;
+    }
+
+    .doctorCard .dImg {
+        float: left;
+        margin-right: 12px
+    }
+
+    .doctorCard .dImg img {
+        width: 60px;
+        border-radius: 100px;
+    }
+
+    .doctorCard .dDetails .dName {
+        font-size: 18px;
+    }
+
+    .doctorCard .dDetails .dData {
+        padding: 10px 0px 18px 0px;
+        font-size: 14px;
+    }
+
+    .doctorCard .dDetails .dData .dInfo1 {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .doctorCard .dDetails .dData .span1 {
+        margin-right: 5px;
+        float: left;
+    }
+
+    .doctorCard .dDetails .dData .span2 {
+        margin-top: 0px;
+        display: inline-flex;
+    }
+
+    .doctorCard .dBtn {
+        clear: both;
+        text-align: center;
+    }
+
+    .manageTabView .p-tabview.p-component {
+        padding: 0px;
+    }
+
+    .mainclass .manageTabView .p-float-label {
+        margin: 0px 10px;
+    }
+
+    .mainclass .manageTabView .p-tabview .p-tabview-nav li .p-tabview-nav-link,
+    .mainclass .manageTabView .p-tabview .p-tabview-nav li:not(.p-highlight):not(.p-disabled):hover .p-tabview-nav-link {
+        border: 2px solid var(--tabview-color, #07BEB8) !important;
+        border-radius: 5px;
+        margin: 0px 5px 0px 0px;
+        color: var(--tabview-color, #07BEB8);
+        background-color: var(--tabview-background, #ffffff);
+        padding: 0.8em 0.1em;
+        min-width: 140px;
+    }
+
+    .mainclass .manageTabView .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+        border: 2px solid var(--tabview-color, #07BEB8) !important;
+        background: var(--tabview-color, #07BEB8) !important;
+        color: #fff !important;
+    }
+
+    .mainclass .manageTabView ul.p-tabview-nav {
+        border: none;
+        margin: 10px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    .mainclass .manageTabView li.p-tabview-ink-bar {
+        display: none !important;
+    }
+
+    .mainclass .manageTabView .p-tabview .p-tabview-panels {
+        padding: 0px !important;
+    }
+
+    .mainclass .manageTabView .insideTab {
+        padding: 20px 0px 50px 12px;
+    }
+
+    .mainclass .manageTabView .p-tabview.innerTab .p-tabview-nav li .p-tabview-nav-link:hover {
+        border: 2px solid #D7E5FF;
+        background: #D7E5FF;
+        color: #969393;
+    }
+
+    .tabHeading {
+        border: none;
+        padding: 10px 0px;
+    }
+
+    .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+        padding: 0px 0px !important;
+    }
+
+    .p-tabview.innerTab .p-tabview-nav li .p-tabview-nav-link {
+        padding: 7px 0px !important;
+    }
+
+    ul.p-tabview-nav {
+        justify-content: unset;
+        background: transparent !important;
+        padding: unset;
+    }
+
+    /* .p-tabview .p-tabview-nav li {
+        width: 33.33%;
+    } */
+
+    .pr-10 {
+        padding-right: 10px;
+    }
+
+    .pl-10 {
+        padding-left: 10px;
+    }
+
+    .regidterFormSection {
+        background: #fff;
+        box-shadow: none;
+        margin: 10px;
+        padding: 15px 30px 15px 10px;
+    }
+
+    .noInfo.sccuessInfo {
+        margin: 50px 0px 0px;
+        text-align: center;
+    }
+
+    .appointmentDetailSection .sccuessInfo {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        color: #000;
+        letter-spacing: 1.59px;
+        margin: 10px 0px 30px 0px;
+        border: none;
+    }
+
+    .appointmentDetailSection .sccuessInfo .queryNumber {
+        font-size: 48px;
+        color: var(--tabview-color, #07BEB8) !important;
+        font-weight: 500;
+        letter-spacing: 7.59px;
+        line-height: 45px;
+    }
+
+    .appointmentDetailSection .sccuessInfo img {
+        width: 50px;
+        float: none;
+        margin: 0;
+    }
+
+    .appointmentDetailSection .sccuessInfo .smsg,
+    .smsg {
+        margin-top: 5px;
+    }
+
+    .regInfo::before,
+    .regInfo.sccuessInfo::before {
+        display: none;
+    }
+
+    .muldCard {
+        margin: 5px 10px 15px 10px
+    }
+
+    .muldCard.doctorCard .dDetails .dName {
+        font-size: 22px;
+        margin: 5px 0px;
+        display: inherit;
+    }
+
+    .muldCard.doctorCard .dDetails .dData {
+        padding: 0px 0px 0px 0px;
+        display: inline-flex;
+    }
+
+    .muldCard .dNameNo {
+        font-size: 13px;
+        font-weight: 400;
+        color: #000;
+        line-height: 22px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 8px 0px;
+        display: inline-block;
+        width: 100%;
+
+    }
+
+    .muldCard .dNameNo .span1 {
+        margin-left: 5px;
+        float: left;
+    }
+
+    .muldCard .dNameNo .span2 {
+        float: right;
+        margin-right: 5px;
+    }
+
+    .radioGroup {
+        margin-bottom: 5px;
+    }
+
+    .radioGroup.grid.pl-2 {
+        padding-left: 0px !important;
+    }
+
+    .appointmentDetailSection {
+        padding: 10px;
+    }
+
+    .dappointmentDetailSection .appointmentData {
+        background: #D7E5FF;
+        box-shadow: none;
+        margin: 0PX;
+        padding: 0px;
+    }
+
+    .dappointmentDetailSection .appointmentData .table-row:not(:last-child),
+    .appointmentData .table-row:not(:last-child) {
+        border-bottom: 1px solid #cecece;
+    }
+
+    .dappointmentDetailSection .appointmentData .table-column {
+        border-right: 1px solid #cecece;
+    }
+
+    .dappointmentDetailSection .appointmentData .table-column:last-child {
+        border: none;
+    }
+
+    .consultation {
+        display: inline-block;
+        width: 85%;
+    }
+
+    .consultation .leftCont {
+        float: left;
+    }
+
+    .consultation .rightCont {
+        float: right;
+    }
+
+    .swal2-popup {
+        width: 25em;
+    }
+
+}
+
+@media(min-width:451px) and (max-width:540px) {
+
+    img {
+        max-width: fit-content;
+    }
+
+    .regidterFormSection .deskcol6 {
+        width: 50%;
+    }
+
+    .chooseTheme{
+        bottom: 37px;
+    }
+
+    .reregister.submitBtn {
+        font-size: 15px !important;
+    }
+
+    .MenuHeader .p-menubar-start {
+        width: auto;
+    }
+
+    .MenuHeader .p-menubar .p-menubar-root-list>.p-menuitem>.active.p-menuitem-link {
+        background: #f1f1f1;
+    }
+
+    .p-menubar .p-menubar-button {
+        height: 1.5rem;
+    }
+
+    .MenuHeader .p-menubar {
+        background: #ECF0F1;
+        padding: 10px 5px 10px 10px;
+    }
+
+    .MenuHeader .p-menubar-start img {
+        width: 20%;
+    }
+
+    .MenuHeader .logoHeading {
+
+    }
+
+    .tabPanelDiv .slot {
+        font-size: 12px;
+    }
+
+    .p-dialog.p-component.choosThemeModel {
+        width: 19vw !important;
+    }
+
+    .dappointmentDetailSection .hideThingsOnDesktopView,
+    .hideThingsOnDesktopView {
+        display: block;
+    }
+
+    .hideThingsOnMobileView {
+        display: none;
+    }
+
+    .doctorCard {
+        background: #D7E5FF;
+        border-radius: 5px;
+        margin: 0px 10px 10px 10px;
+        padding: 15px 15px 15px 15px;
+    }
+
+    .doctorCard.modifypadd {
+        padding: 20px 25px 15px 30px;
+    }
+
+    .doctorCard .dImg {
+        float: left;
+        margin-right: 12px
+    }
+
+    .doctorCard .dImg img {
+        width: 60px;
+        border-radius: 100px;
+    }
+
+    .doctorCard .dDetails .dName {
+        font-size: 18px;
+    }
+
+    .doctorCard .dDetails .dData {
+        padding: 10px 0px 18px 0px;
+        font-size: 14px;
+    }
+
+    .doctorCard .dDetails .dData .dInfo1 {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .doctorCard .dDetails .dData .span1 {
+        margin-right: 5px;
+        float: left;
+    }
+
+    .doctorCard .dDetails .dData .span2 {
+        margin-top: 0px;
+        display: inline-flex;
+    }
+
+    .doctorCard .dBtn {
+        clear: both;
+        text-align: center;
+    }
+
+    .manageTabView .p-tabview.p-component {
+        padding: 0px;
+    }
+
+    .mainclass .manageTabView .p-float-label {
+        margin: 0px 10px;
+    }
+
+    .mainclass .manageTabView .p-tabview .p-tabview-nav li .p-tabview-nav-link,
+    .mainclass .manageTabView .p-tabview .p-tabview-nav li:not(.p-highlight):not(.p-disabled):hover .p-tabview-nav-link {
+        border: 2px solid var(--tabview-color, #07BEB8) !important;
+        border-radius: 5px;
+        margin: 0px 5px 0px 0px;
+        color: var(--tabview-color, #07BEB8);
+        background-color: var(--tabview-background, #ffffff);
+        padding: 0.8em 0.1em;
+        min-width: 140px;
+    }
+
+    .mainclass .manageTabView .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+        border: 2px solid var(--tabview-color, #07BEB8) !important;
+        background: var(--tabview-color, #07BEB8) !important;
+        color: #fff !important;
+    }
+
+    .mainclass .manageTabView ul.p-tabview-nav {
+        border: none;
+        margin: 10px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    .mainclass .manageTabView li.p-tabview-ink-bar {
+        display: none !important;
+    }
+
+    .mainclass .manageTabView .p-tabview .p-tabview-panels {
+        padding: 0px !important;
+    }
+
+    .mainclass .manageTabView .insideTab {
+        padding: 20px 0px 50px 12px;
+    }
+
+    .mainclass .manageTabView .p-tabview.innerTab .p-tabview-nav li .p-tabview-nav-link:hover {
+        border: 2px solid #D7E5FF;
+        background: #D7E5FF;
+        color: #969393;
+    }
+
+    .tabHeading {
+        border: none;
+        padding: 10px 0px;
+    }
+
+    .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+        padding: 0px 0px !important;
+    }
+
+    .p-tabview.innerTab .p-tabview-nav li .p-tabview-nav-link {
+        padding: 7px 0px !important;
+    }
+
+    ul.p-tabview-nav {
+        justify-content: unset;
+        background: transparent !important;
+        padding: unset;
+    }
+
+    .p-tabview .p-tabview-nav li {
+        width: 33.33%;
+    }
+
+    .pr-10 {
+        padding-right: 10px;
+    }
+
+    .pl-10 {
+        padding-left: 10px;
+    }
+
+    .regidterFormSection {
+        background: #fff;
+        box-shadow: none;
+        margin: 10px;
+        padding: 15px 30px 15px 10px;
+    }
+
+    .noInfo.sccuessInfo {
+        margin: 50px 0px 0px;
+        text-align: center;
+    }
+
+    .appointmentDetailSection .sccuessInfo {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        color: #000;
+        letter-spacing: 1.59px;
+        margin: 10px 0px 30px 0px;
+        border: none;
+    }
+
+    .appointmentDetailSection .sccuessInfo .queryNumber {
+        font-size: 48px;
+        color: var(--tabview-color, #07BEB8) !important;
+        font-weight: 500;
+        letter-spacing: 7.59px;
+        line-height: 45px;
+    }
+
+    .appointmentDetailSection .sccuessInfo img {
+        width: 50px;
+        float: none;
+        margin: 0;
+    }
+
+    .appointmentDetailSection .sccuessInfo .smsg,
+    .smsg {
+        margin-top: 5px;
+    }
+
+    .regInfo::before,
+    .regInfo.sccuessInfo::before {
+        display: none;
+    }
+
+    .muldCard {
+        margin: 5px 10px 15px 10px
+    }
+
+    .muldCard.doctorCard .dDetails .dName {
+        font-size: 22px;
+        margin: 5px 0px;
+        display: inherit;
+    }
+
+    .muldCard.doctorCard .dDetails .dData {
+        padding: 0px 0px 0px 0px;
+        display: inline-flex;
+    }
+
+    .muldCard .dNameNo {
+        font-size: 13px;
+        font-weight: 400;
+        color: #000;
+        line-height: 22px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 8px 0px;
+        display: inline-block;
+        width: 100%;
+
+    }
+
+    .muldCard .dNameNo .span1 {
+        margin-left: 5px;
+        float: left;
+    }
+
+    .muldCard .dNameNo .span2 {
+        float: right;
+        margin-right: 5px;
+    }
+
+    .radioGroup {
+        margin-bottom: 5px;
+    }
+
+    .radioGroup.grid.pl-2 {
+        padding-left: 0px !important;
+    }
+
+    .appointmentDetailSection {
+        padding: 10px;
+    }
+
+    .dappointmentDetailSection .appointmentData {
+        background: #D7E5FF;
+        box-shadow: none;
+        margin: 0PX;
+        padding: 0px;
+    }
+
+    .dappointmentDetailSection .appointmentData .table-row:not(:last-child),
+    .appointmentData .table-row:not(:last-child) {
+        border-bottom: 1px solid #cecece;
+    }
+
+    .dappointmentDetailSection .appointmentData .table-column {
+        border-right: 1px solid #cecece;
+    }
+
+    .dappointmentDetailSection .appointmentData .table-column:last-child {
+        border: none;
+    }
+
+    .consultation {
+        display: inline-block;
+        width: 85%;
+    }
+
+    .consultation .leftCont {
+        float: left;
+    }
+
+    .consultation .rightCont {
+        float: right;
+    }
+
+    .swal2-popup {
+        width: 25em;
+    }
+
+
+}
+
+@media(min-width:360px) and (max-width:640px) {
+
+    img {
+        max-width: fit-content;
+    }
+
+    .regidterFormSection .deskcol6 {
+        width: 50%;
+    }
+
+    .chooseTheme{
+        bottom: 37px;
+    }
+
+    .reregister.submitBtn {
+        font-size: 15px !important;
+    }
+
+    .MenuHeader .p-menubar-start {
+        width: auto;
+    }
+
+    .MenuHeader .p-menubar .p-menubar-root-list>.p-menuitem>.active.p-menuitem-link {
+        background: #f1f1f1;
+    }
+
+    .p-menubar .p-menubar-button {
+        height: 1.5rem;
+    }
+
+    .MenuHeader .p-menubar {
+        background: #ECF0F1;
+        padding: 10px 5px 10px 10px;
+        border-radius: 15px;
+        opacity: 0.4px
+
+    }
+
+    .MenuHeader .p-menubar-start img {
+        width: 20%;
+    }
+
+    .MenuHeader {
+        box-shadow: none;
+    }
+
+    .MenuHeader .logoHeading {
+      margin-top: 5px;
+    }
+
+    .tabPanelDiv .slot {
+        font-size: 12px;
+    }
+
+    .p-dialog.p-component.choosThemeModel {
+        width: 19vw !important;
+    }
+
+    .dappointmentDetailSection .hideThingsOnDesktopView,
+    .hideThingsOnDesktopView {
+        display: block;
+    }
+
+    .hideThingsOnMobileView {
+        display: none;
+    }
+
+    .doctorCard {
+        background: #D7E5FF;
+        border-radius: 5px;
+        margin: 0px 10px 10px 10px;
+        padding: 15px 15px 15px 15px;
+    }
+
+    .doctorCard.modifypadd {
+        padding: 20px 25px 15px 30px;
+    }
+
+    .doctorCard .dImg {
+        float: left;
+        margin-right: 12px
+    }
+
+    .doctorCard .dImg img {
+        width: 60px;
+        border-radius: 100px;
+    }
+
+    .doctorCard .dDetails .dName {
+        font-size: 18px;
+    }
+
+    .doctorCard .dDetails .dData {
+        padding: 10px 0px 18px 0px;
+        font-size: 14px;
+    }
+
+    .doctorCard .dDetails .dData .dInfo1 
+    {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .doctorCard .dDetails .dData .span1 {
+        margin-right: 5px;
+        float: left;
+    }
+
+    .doctorCard .dDetails .dData .span2 {
+        margin-top: 0px;
+        display: inline-flex;
+    }
+
+    .doctorCard .dBtn {
+        clear: both;
+        text-align: center;
+    }
+
+    .p-tabview-nav-container{
+        padding-left:0;
+        padding-right: 0;
+    }
+
+    .manageTabView .p-tabview.p-component {
+        padding: 0px;
+    }
+
+    .mainclass .manageTabView .p-float-label {
+        margin: 0px 10px;
+    }
+
+    .mainclass .manageTabView .p-tabview .p-tabview-nav li .p-tabview-nav-link,
+    .mainclass .manageTabView .p-tabview .p-tabview-nav li:not(.p-highlight):not(.p-disabled):hover .p-tabview-nav-link {
+        border: 2px solid var(--tabview-color, #07BEB8) !important;
+        border-radius: 5px;
+        margin: 0px 5px 0px 0px;
+        color: var(--tabview-color, #07BEB8);
+        background-color: var(--tabview-background, #ffffff);
+        padding: 0.8em 0.1em;
+        min-width: 140px;
+    }
+
+    .mainclass .manageTabView .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+        border: 2px solid var(--tabview-color, #07BEB8) !important;
+        background: var(--tabview-color, #07BEB8) !important;
+        color: #fff !important;
+    }
+
+    .mainclass .manageTabView ul.p-tabview-nav {
+        border: none;
+        margin: 10px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    .mainclass .manageTabView li.p-tabview-ink-bar {
+        display: none !important;
+    }
+
+    .mainclass .manageTabView .p-tabview .p-tabview-panels {
+        padding: 0px !important;
+    }
+
+    .mainclass .manageTabView .insideTab {
+        padding: 20px 0px 50px 12px;
+    }
+
+    .mainclass .manageTabView .p-tabview.innerTab .p-tabview-nav li .p-tabview-nav-link:hover {
+        border: 2px solid #D7E5FF;
+        background: #D7E5FF;
+        color: #969393;
+    }
+
+    .tabHeading {
+        border: none;
+        padding: 10px 0px;
+    }
+
+    .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+        padding: 0px 0px !important;
+    }
+
+    .p-tabview.innerTab .p-tabview-nav li .p-tabview-nav-link {
+        padding: 7px 0px !important;
+    }
+
+    ul.p-tabview-nav {
+        justify-content: unset;
+        background: transparent !important;
+        padding: unset;
+    }
+
+    .p-tabview .p-tabview-nav li {
+        /* width: 33.33%; */
+            width: 538px;
+        height: 40px;
+    }
+
+    .pr-10 {
+        padding-right: 10px;
+    }
+
+    .pl-10 {
+        padding-left: 10px;
+    }
+
+    .regidterFormSection {
+        background: #fff;
+        box-shadow: none;
+        margin: 10px;
+        padding: 15px 30px 15px 10px;
+    }
+
+    .noInfo.sccuessInfo {
+        margin: 50px 0px 0px;
+        text-align: center;
+    }
+
+    .appointmentDetailSection .sccuessInfo {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        color: #000;
+        letter-spacing: 1.59px;
+        margin: 10px 0px 30px 0px;
+        border: none;
+    }
+
+    .appointmentDetailSection .sccuessInfo .queryNumber {
+        font-size: 48px;
+        color: var(--tabview-color, #07BEB8) !important;
+        font-weight: 500;
+        letter-spacing: 7.59px;
+        line-height: 45px;
+    }
+
+    .appointmentDetailSection .sccuessInfo img {
+        width: 50px;
+        float: none;
+        margin: 0;
+    }
+
+    .appointmentDetailSection .sccuessInfo .smsg,
+    .smsg {
+        margin-top: 5px;
+    }
+
+    .regInfo::before,
+    .regInfo.sccuessInfo::before {
+        display: none;
+    }
+
+    .muldCard {
+        margin: 5px 10px 15px 10px
+    }
+
+    .muldCard.doctorCard .dDetails .dName {
+        font-size: 22px;
+        margin: 5px 0px;
+        display: inherit;
+    }
+
+    .muldCard.doctorCard .dDetails .dData {
+        padding: 0px 0px 0px 0px;
+        display: inline-flex;
+    }
+
+    .muldCard .dNameNo {
+        font-size: 13px;
+        font-weight: 400;
+        color: #000;
+        line-height: 22px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 8px 0px;
+        display: inline-block;
+        width: 100%;
+
+    }
+
+    .muldCard .dNameNo .span1 {
+        margin-left: 5px;
+        float: left;
+    }
+
+    .muldCard .dNameNo .span2 {
+        float: right;
+        margin-right: 5px;
+    }
+
+    .radioGroup {
+        margin-bottom: 5px;
+    }
+
+    .radioGroup.grid.pl-2 {
+        padding-left: 0px !important;
+    }
+
+    .appointmentDetailSection {
+        padding: 10px;
+    }
+
+    .dappointmentDetailSection .appointmentData {
+        background: #D7E5FF;
+        box-shadow: none;
+        margin: 0PX;
+        padding: 0px;
+    }
+
+    .dappointmentDetailSection .appointmentData .table-row:not(:last-child),
+    .appointmentData .table-row:not(:last-child) {
+        border-bottom: 1px solid #cecece;
+    }
+
+    .dappointmentDetailSection .appointmentData .table-column {
+        border-right: 1px solid #cecece;
+    }
+
+    .dappointmentDetailSection .appointmentData .table-column:last-child {
+        border: none;
+    }
+
+    .consultation {
+        display: inline-block;
+        width: 85%;
+    }
+
+    .consultation .leftCont {
+        float: left;
+    }
+
+    .consultation .rightCont {
+        float: right;
+    }
+
+    .swal2-popup {
+        width: 25em;
+    }
+
+}
+
+@media(min-width:541px) and (max-width:768px) {
+
+    img {
+        max-width: fit-content;
+    }
+
+    .p-tabview.p-component {
+        padding: 10px 10%;
+    }
+
+    .accordionData .dappointmentData th,
+    .accordionData .dappointmentData td {
+        min-width: 76px;
+    }
+
+    .accordionData .dappointmentData td {
+        padding: 10px 5px;
+    }
+
+    .accordionData .appointBookedBtn .p-button {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .regidterFormSection {
+        margin: 0px 10% 5% 10%;
+    }
+
+    .dappointmentDetailSection .appointmentData {
+        margin: 0px 10% 5% 10%;
+        padding: 30px 12px 30px 12px;
+    }
+
+    .dappointmentDetailSection .appointmentData .table-row {
+        font-size: 13px;
+    }
+
+    .p-dialog.p-component.choosThemeModel {
+        width: 5vh !important;
+    }
+
+    .MenuHeader .p-menubar-start {
+        width: 38%;
+    }
+
+    .MenuHeader .logoHeading {
+        margin-top: 5px;
+    }
+
+    .swal2-popup {
+        width: 26em;
+    }
+}
+
+@media(min-width:769px) and (max-width:1024px) {
+
+    img {
+        max-width: fit-content;
+    }
+
+    .p-tabview.p-component {
+        padding: 10px 10%;
+    }
+
+    .accordionData .dappointmentData th,
+    .accordionData .dappointmentData td {
+        min-width: 76px;
+    }
+
+    .accordionData .dappointmentData td {
+        padding: 10px 5px;
+    }
+
+    .accordionData .appointBookedBtn .p-button {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .regidterFormSection {
+        margin: 0px 10% 5% 10%;
+    }
+
+    .dappointmentDetailSection .appointmentData {
+        margin: 0px 10% 5% 10%;
+        padding: 30px 12px 30px 12px;
+    }
+
+    .dappointmentDetailSection .appointmentData .table-row {
+        font-size: 13px;
+    }
+
+    .p-dialog.p-component.choosThemeModel {
+        width: 5vh !important;
+    }
+
+    .MenuHeader .p-menubar-start {
+        width: 34%;
+    }
+
+    .swal2-popup {
+        width: 26em;
+    }
+
+}
+
+@media(min-width:820px) and (max-width:1180px) {
+    .p-tabview.p-component {
+        padding: 10px 8%;
+    }
+
+    .accordionData .dappointmentData th,
+    .accordionData .dappointmentData td {
+        min-width: 85px;
+    }
+}
+
+@media(min-width:1025px) and (max-width:1200px) {
+    .swal2-popup {
+        width: 26em;
+    }
+
+    .accordionData .dappointmentData th,
+    .accordionData .dappointmentData td {
+        min-width: 95px;
+    }
+}
+
+@media(min-width : 1201px) and (max-width:1600px) {}
+
+@media only screen and (min-width:1600px) and (max-width:2400px) {
+    .radioGroup.grid.pl-2 {
+        margin-left: 0px;
+    }
+
+    .dappointmentDetailSection .appointmentData {
+        margin: 0px 20% 5% 20%;
+        padding: 30px 70px 30px 70px;
+    }
+}
